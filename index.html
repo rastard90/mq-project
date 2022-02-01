@@ -8,6 +8,47 @@
     <title>MQ-Project</title>
 </head>
 <body>
+  <div class="popup">
+    <div class="popup-window">
+      <img src="svg/form-x.svg" alt="закрыть окно" class="popup-x">
+      <h3 class="popup-header">ваш фидбек</h3>
+      <form class="question-form">
+        <label>
+          <span class="hint">Как часто вы заходите на сайт?</span>
+          <select name="select" class="answer-select" size="1">
+            <option selected-value="option1">Почти каждый день</option>
+            <option value="option2">Раз в несколько дней</option>
+            <option value="option3">Раз в несколько недель</option>
+            <option value="option4">Несколько раз в год</option>
+          </select>
+        </label>
+      </form>
+
+      <form class="popup-radio">
+        <span class="hint">Вы подписаны на email рассылку?</span>
+        <div class="popup-radio-buttons">
+          <label>
+            <input name="radio" type="radio" class="radio" value="yes">
+            <span class="radio-text">Да</span>
+          </label>
+          <label>
+            <input name="radio" type="radio" class="radio" value="no">
+            <span class="radio-text">Нет</span>
+          </label>
+        </div>
+      </form>
+
+      <form class="offer-form">
+        <span class="hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+        <label>
+          <input type="text" class="offer" placeholder="Может, больше рецептов?">
+        </label>        
+      </form>
+
+      <button type="submit" name="submit" class="send-button">Отправить</button>
+    </div>
+  </div>
+
   <div class="page">
     <header class="header">
       <div  class="top-head">
