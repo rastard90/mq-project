@@ -22,6 +22,7 @@ font-family: Open Sans, sans-serif;
 }
 
 /*POPUP*/
+
 .popup {
 	position: absolute;
 	min-width: 100vw;
@@ -62,7 +63,7 @@ font-family: Open Sans, sans-serif;
 	position: absolute;
 	width: 20px;
 	top: -30px;
-	right: 0;	
+	right: 0;
 }
 
 .popup-header {
@@ -255,7 +256,7 @@ font-family: Open Sans, sans-serif;
 }
 
 .page-description {
-	margin-top: 0;  
+	margin-top: 0;
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 75px;
@@ -276,7 +277,7 @@ font-family: Open Sans, sans-serif;
 .trends-posts {
 	display: flex;
 	justify-content: space-between;
-	
+
 }
 
 .sections-header-title {
@@ -285,7 +286,7 @@ font-family: Open Sans, sans-serif;
 	font-size: 20px;
 	line-height: 29px;
 	font-weight: bold;
-	text-align: center; 
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -307,7 +308,7 @@ font-family: Open Sans, sans-serif;
 }
 
 
-.trends-post::after {	
+.trends-post::after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -339,7 +340,7 @@ font-family: Open Sans, sans-serif;
 	right: 22px;
 	border: 3px solid #75643a;
 	padding: 9.2166% 8.29%;;
-	
+
 	z-index: 5;
 }
 
@@ -378,9 +379,9 @@ font-family: Open Sans, sans-serif;
 	box-sizing: border-box;
 	display: flex;
 	width: 1200px;
-	padding:0 15px;	
+	padding:0 15px;
 	margin-top: 65px;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 
 	justify-content: space-between;
@@ -406,7 +407,7 @@ font-family: Open Sans, sans-serif;
 }
 
 .post-header {
-	margin-bottom: 32px; 
+	margin-bottom: 32px;
 }
 
 .post-article {
@@ -501,7 +502,7 @@ margin-left: 15px;
 	margin: 0;
 	font-size: 14px;
 	font-weight: bold;
-	text-align: center; 
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -748,7 +749,7 @@ border-bottom: #eeeeee solid 1px;
 	position: relative;
 	top: -32px;
 	border: 3px solid #d3c59d;
-	padding: 50px 20px;		
+	padding: 50px 20px;
 }
 
 .shop-card-image {
@@ -788,7 +789,7 @@ border-bottom: #eeeeee solid 1px;
 }
 
 p.shop-price-sale {
-	font-size: 14px;	
+	font-size: 14px;
 	text-decoration: line-through;
 }
 
@@ -949,7 +950,7 @@ font-family: Open Sans, sans-serif;
 	position: absolute;
 	width: 20px;
 	top: -30px;
-	right: 0;	
+	right: 0;
 }
 
 .popup-header {
@@ -1142,7 +1143,7 @@ font-family: Open Sans, sans-serif;
 }
 
 .page-description {
-	margin-top: 0;  
+	margin-top: 0;
 	font-size: 45px;
 	font-weight: bold;
 	line-height: 75px;
@@ -1163,7 +1164,7 @@ font-family: Open Sans, sans-serif;
 .trends-posts {
 	display: flex;
 	justify-content: space-between;
-	
+
 }
 
 .sections-header-title {
@@ -1172,7 +1173,7 @@ font-family: Open Sans, sans-serif;
 	font-size: 20px;
 	line-height: 29px;
 	font-weight: bold;
-	text-align: center; 
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -1194,7 +1195,7 @@ font-family: Open Sans, sans-serif;
 }
 
 
-.trends-post::after {	
+.trends-post::after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1226,7 +1227,7 @@ font-family: Open Sans, sans-serif;
 	right: 22px;
 	border: 3px solid #75643a;
 	padding: 9.2166% 8.29%;;
-	
+
 	z-index: 5;
 }
 
@@ -1265,9 +1266,9 @@ font-family: Open Sans, sans-serif;
 	box-sizing: border-box;
 	display: flex;
 	width: 1200px;
-	padding:0 15px;	
+	padding:0 15px;
 	margin-top: 65px;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 
 	justify-content: space-between;
@@ -1293,7 +1294,7 @@ font-family: Open Sans, sans-serif;
 }
 
 .post-header {
-	margin-bottom: 32px; 
+	margin-bottom: 32px;
 }
 
 .post-article {
@@ -1388,7 +1389,7 @@ margin-left: 15px;
 	margin: 0;
 	font-size: 14px;
 	font-weight: bold;
-	text-align: center; 
+	text-align: center;
 	text-transform: uppercase;
 }
 
@@ -1635,7 +1636,7 @@ border-bottom: #eeeeee solid 1px;
 	position: relative;
 	top: -32px;
 	border: 3px solid #d3c59d;
-	padding: 50px 20px;		
+	padding: 50px 20px;
 }
 
 .shop-card-image {
@@ -1675,7 +1676,7 @@ border-bottom: #eeeeee solid 1px;
 }
 
 p.shop-price-sale {
-	font-size: 14px;	
+	font-size: 14px;
 	text-decoration: line-through;
 }
 
