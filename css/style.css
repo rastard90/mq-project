@@ -1524,14 +1524,19 @@ border-bottom: #eeeeee solid 1px;
 	width: 140px;
 	height: 48px;
 	background-color: #b59f5b;
-	color: #ffffff;
-	text-align: center;
-	text-transform: uppercase;
-}
+	}
+
 .buy-button:hover {
 	border-style: solid;
 	border-color: #b59f5b;
 	background-color: #bfa760;
+}
+
+.buy-button a {
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 
