@@ -212,7 +212,7 @@
 @media (min-width: 641px) and (max-width: 1200px) {
 
 	.popup {
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	.popup-window {
@@ -480,6 +480,12 @@
 
 	.trends-category {
 		margin-right: 10px;
+		font-size: inherit;
+	}
+
+	.trends-post-container .trends-post-title {
+		font-size: inherit;
+		line-height: 1.8;
 	}
 
 	.trends-post-container {
@@ -488,6 +494,7 @@
 		right: 5.18%;
 		border: 3px solid #75643a;
 		padding: 9% 7.6%;
+		font-size: 1.3vw;
 	}
 }
 
@@ -513,20 +520,22 @@
 @media (max-width: 640px) {
 	
 	.popup {
-		font-size: 15px;
+		font-size: 13px;
 	}
 
-	.popup-window {
-		padding: 19px 26px 54px;
-		left: calc(50vw - 165px);
-		top: calc(50vh - 272px);
+	.popup .popup-window {
+		padding: 31px 25px;
 		max-width: calc((330/360)*100%);
-		max-height: 546px;
+		margin-top: 56px;
+		margin-left: calc((15/360)*100%);
+		margin-right: calc((15/360)*100%);
+		left: calc(50vw - 180px);
+		right: calc(50vw - 180px);
 	}
 
 	.popup-x {
-		width: 29px;
-		top: -37px;
+		width: 30px;
+		top: -38px;
 		right: 0;	
 	}
 
